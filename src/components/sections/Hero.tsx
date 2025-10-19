@@ -14,6 +14,11 @@ export default function Hero() {
       <Particles />
       <div className="absolute inset-0 flex items-center">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 w-full">
+          <div className="absolute right-4 sm:right-8 top-24 sm:top-32 opacity-80">
+            {/* Decorative emblem on the right side */}
+            {/* Using img to avoid Next Image layout constraints for now */}
+            <img src="/logo.png" alt="Emblem" className="w-24 sm:w-32 md:w-40 lg:w-48 h-auto" />
+          </div>
           <motion.div
             initial="hidden"
             animate="visible"

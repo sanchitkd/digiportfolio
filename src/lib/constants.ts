@@ -8,7 +8,7 @@ export const NAV_ITEMS = [
 
 export const PERSONAL_INFO = {
   name: "Sanchit Dikshit",
-  title: "Full Stack Software Developer",
+  title: "Platform Engineer",
   tagline: "Crafting Digital Experiences with Code & Creativity",
   cta: ["View Projects", "Contact Me"],
 } as const;
